@@ -1,8 +1,10 @@
 ---
 layout: single
 title: 백준 코테 문제 25304번 
-categories: 백준코테
-tag: 파이썬
+categories:
+-백준
+tag:
+-python
 toc: true
 toc_sticky: true
 toc_label: 목차

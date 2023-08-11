@@ -1,3 +1,16 @@
+---
+layout: single
+title: 백준 코테 문제 25304번 
+categories:
+-백준
+tag:
+-python
+toc: true
+toc_sticky: true
+toc_label: 목차
+sidebar:
+    nav: "counts"
+---
 2023-07-28
 # 코딩테스트 준비
 백준 3단계 반복문 8393번

@@ -104,7 +104,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Lee DongYoon"
+  name             : "Yoony"
   avatar           : "/assets/images/bio-photo.jpg"
   bio              : "세계를 누비는 개발자"
   location         : "Anywhere"
@@ -112,7 +112,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:dongyoon7212@naver.com"
+      url: "mailto:dongyoon7212@naver.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -124,10 +124,10 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/dongyoon7212"
+      url: "https://github.com/dongyoon7212"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/d.yxxn"
+      url: "https://instagram.com/d.yxxn"
 
 # Site Footer
 footer:

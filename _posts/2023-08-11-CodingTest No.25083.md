@@ -1,3 +1,14 @@
+---
+layout: single
+title: 백준 코테 문제 25083번 
+categories: -백준
+tag: -python
+toc: true
+toc_sticky: true
+toc_label: 목차
+sidebar:
+    nav: "counts"
+---
 # 2023-08-11
 # 코딩테스트 준비
 백준 25083번

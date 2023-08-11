@@ -19,7 +19,7 @@ locale                   : "en-US"
 title                    : "Yoon'sTorage"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Lee DongYoon"
+name                     : "Yoony"
 description              : "세상을 누비는 개발자"
 url                      : "https://dongyoon7212.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"

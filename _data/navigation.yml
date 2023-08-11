@@ -1,6 +1,6 @@
 # main links
 main:
-  - title: "Category"
+  - title: "Posts by Category"
     url: /categories/
   - title: "Tag"
     url: /tags/

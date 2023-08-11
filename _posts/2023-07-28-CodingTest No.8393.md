@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 백준 코테 문제 25304번 
+title: 백준 코테 문제 8393번 
 categories:
 -백준
 tag:

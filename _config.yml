@@ -20,7 +20,7 @@ title                    : "Yoon'sTorage"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Yoony"
-description              : "세상을 누비는 개발자"
+description              : "더 큰 세상을 나아갈 준비 완료"
 url                      : "https://dongyoon7212.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "Yoony"
   avatar           : "/assets/images/bio-photo.jpg"
-  bio              : "세계를 누비는 개발자"
+  bio              : "더 큰 세상을 나아갈 준비 완료"
   location         : "Anywhere"
   email            : "dongyoon7212@naver.com"
   links:
@@ -115,7 +115,7 @@ author:
       url: "mailto:dongyoon7212@naver.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      url: "https://yoonportfolio.vercel.app/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
@@ -140,7 +140,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://github.com/dongyoon7212"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -149,7 +149,7 @@ footer:
       # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url:
+      url: "https://instagram.com/d.yxxn"
 
 
 # Reading Files

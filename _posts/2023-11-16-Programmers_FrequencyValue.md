@@ -2,7 +2,7 @@
 layout: single
 title: (프로그래머스)최빈값 구하기
 categories: 프로그래머스
-tag: 알고리즘 JavaScript
+tag: [알고리즘, JavaScript]
 toc: true
 toc_sticky: true
 toc_label: 순간이동

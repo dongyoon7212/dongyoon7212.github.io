@@ -30,18 +30,18 @@ n이 주어졌을 때, 1부터 n까지 합을 구하는 프로그램을 작성�
 `6`
 
 먼저 출력을 위한 입력 코드를 적는다.
-```
+```python
 A=int(input())
 ```
 A에 정수로 입력값을 받는다.
 
 그리고 합을 출력하기 위해 total이라는 변수를 만든다.
-```
+```python
 total = 0
 ```
 
 이제 1부터 A만큼의 합을 출력하기 위해 for문을 사용한다.
-```
+```python
 for i in range(A+1):
     total = total + i
 ```
@@ -49,7 +49,7 @@ for i in range(A+1):
 여기서 `range(A+1)`을 한 이유는 변수A의 직전까지만 범위가 적용되기 때문에 변수A만큼의 범위를 지정하려면 +1을 해주어야 한다.
 
 결과적으로
-```
+```python
 A=int(input())
 total = 0
 
@@ -61,7 +61,7 @@ print(total)
 이러한 코드가 나온다.
 
 예제 입력1을 넣었을때 결과로
-```
+```python
 /usr/local/bin/python3.11 /Users/dongyoon/Desktop/Python/practice2.py 
 3
 6
@@ -73,7 +73,7 @@ Process finished with exit code 0
 임의로 다른 값을 넣어본다.
 
 6을 넣었을때 결과로
-```
+```python
 /usr/local/bin/python3.11 /Users/dongyoon/Desktop/Python/practice2.py 
 6
 21

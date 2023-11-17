@@ -29,20 +29,20 @@ X보다 작은 수를 입력받은 순서대로 공백으로 구분해 출력한
 
 - - -
 ##### 예제 입력
-```
+```python
 10 5
 1 10 4 9 2 3 8 5 7 6
 ```
 
 ##### 예제 출력
-```
+```python
 1 4 2 3
 ```
 - - -
 ##### 풀이
 
 먼저 입력값으로 N과 X를 입력받는다. 그리고 N개 만큼의 수열 A를 입력받는다. (사실 N개 만큼이라는 말은 의미가 없는거 같다…)
-```
+```python
 N,X=map(int,input().split())
 A=list(map(int,input().split()))
 ```
@@ -52,7 +52,7 @@ A=list(map(int,input().split()))
 다음으로 A의 개수인 N만큼의 조건문을 실행하여 X값과 비교하여 X보다 작은 수를 출력한다.
 for문과 if문을 이용한다.
 
-```
+```python
 for i in range(N):
     if A[i]<X:
         print(A[i],end=" ")
@@ -65,7 +65,7 @@ end함수는 문자열이 끝날때 끝부분을 어떻게 처리 할것인지�
 
 - - -
 ##### 정답
-```
+```python
 N,X=map(int,input().split())
 A=list(map(int,input().split()))
 

@@ -82,7 +82,7 @@ function solution(array) {
 하나씩 뜯어서 보자
 
 
-```
+```javascript
 let map = new Map()
     
     if(array.length === 1){
@@ -98,7 +98,7 @@ let map = new Map()
 여기 까지는 어려운게 없었다…
 
 
-```
+```javascript
 for(let i=0; i<=Math.max(...array); i++){
         map.set(i,0)
     }
@@ -114,7 +114,7 @@ map.set(i,0) : 앞에 선언했던 key-value으로 이루어진 map에 추가한
 map.set(i,0)은 아래와 같이 추가되게 된다.
 
 
-```
+```javascript
 map.set(0, 0);
 map.set(1, 0);
 map.set(2, 0);
@@ -125,7 +125,7 @@ map.set(3, 0);
 다음으로 두번째 루프이다.
 
 
-```
+```javascript
 for(let i=0; i<array.length; i++){
         map.set(array[i], map.get(array[i])+1)
     }
@@ -138,14 +138,14 @@ map.set(array[i], map.get(array[i])+1) : map.set으로 (array[i], map.get(array[
 map.set(array[i], map.get(array[i])+1) 을 풀어서 보자면
 
 
-```
+```javascript
 i = 0일때 array[i] = 1
 
 map.set(1, map.get(1) + 1);
 ```
 
 
-```
+```javascript
 map: {
   0 => 0,
   1 => 1,
@@ -155,13 +155,13 @@ map: {
 ```
 
 
-```
+```javascript
 i = 1일때 array[i] = 2
 map.set(2, map.get(2) + 1);
 ```
 
 
-```
+```javascript
 map: {
   0 => 0,
   1 => 1,
@@ -176,7 +176,7 @@ map: {
 최종적으로는
 
 
-```
+```javascript
 map: {
   0 => 0,
   1 => 2,
@@ -189,7 +189,7 @@ map: {
 마지막으로
 
 
-```
+```javascript
 const arr = Array.from(map.values())
 const max = Math.max(...arr)
     

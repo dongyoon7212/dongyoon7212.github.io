@@ -42,7 +42,7 @@ K * O(N) = O(K*N) = O(100)
 JavaScript의 indexOf함수를 쓰지않고 배열을 중 원하는 값 찾기
 값을 찾으면 인덱스 값을 출력하고 못 찾으면 -1을 출력
 
-```
+```javascript
 function linearSearch(arr, val){
     for(var i = 0; i < arr.length; i++){
         if(arr[i] === val) return i;

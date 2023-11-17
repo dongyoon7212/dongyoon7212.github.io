@@ -18,7 +18,7 @@ sidebar:
 
 특정 기능을 수행하는 것들을 묶어놓는 함수를 뜻한다.
 공식문서에 따른 타입은
-```
+```javascript
 interface ComponentOptions {
   methods?: {
     [key: string]: (this: ComponentPublicInstance, ...args: any[]) => any
@@ -35,7 +35,7 @@ methods와 emits를 이용해 부모컴포넌트에 이벤트를 전달해보자
 
 저번 v-model을 이용해 input값을 받는 프로젝트에 바로 적용해보면
 
-```
+```javascript
 <script>
 export default {
   emits: ["add-contact"],
@@ -70,13 +70,13 @@ submitData라는 함수가 실행될때, 프로젝트에선 enteredName, entered
 그리고 이벤트를 전달받는 부모 컴포넌트에서는
 @add-contact로 정의해야 할 메서드를 가르킨다.
 그리고 그 메서드의 이름을 addContact로 한다.
-```
+```javascript
 <!-- App.vue 부모 컴포넌트 -->
 
 <header><h1>My Friends</h1></header>
     <new-friend @add-contact="addContact"></new-friend>
 ```
-```
+```javascript
 <script>
 export default {
   methods: {

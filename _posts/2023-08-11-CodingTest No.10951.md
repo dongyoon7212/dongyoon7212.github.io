@@ -54,7 +54,7 @@ sidebar:
 여기서 while문과 try-expept문을 활용한다.
 try-except문은 오류를 처리하기 위해 사용한다. try-except문의 기본구조이다.
 
-```
+```python
 try:
     ~~~
 except [발생오류 [as 오류변수]]:
@@ -63,7 +63,7 @@ except [발생오류 [as 오류변수]]:
 
 하지만 이 문제에서는 try-except만 사용한다.
 
-```
+```python
 while True:
 ```
 
@@ -71,7 +71,7 @@ while True:
 
 ##### 정답
 
-```
+```python
 while True:
     try:
         a,b=map(int,input().split())
@@ -86,7 +86,7 @@ a와 b에 입력값을 받고 더한 값을 출력한다. 여기서 예외로 br
 
 결과
 
-```
+```python
 1 1
 2
 2 3

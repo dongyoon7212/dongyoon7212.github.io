@@ -50,7 +50,7 @@ sidebar:
 먼저 정답을 맞춘 코드이다.
 
 
-```
+```JavaScript
 function solution(array) {
     let map = new Map()
     

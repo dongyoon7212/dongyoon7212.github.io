@@ -50,7 +50,7 @@ BaseBadge라는 컴포넌트를 전역 컴포넌트로 등록할 경우 위와 �
 예를들어 BadgeList.vue 컴포넌트에 호출하여 사용한다 했을때
 
 ```javascript
-<-- BadgeList.vue -->
+// BadgeList.vue
 
 <template>
   <section>
@@ -76,7 +76,7 @@ base-badge라는 태그로 바로 호출하여 사용이 가능하다.
 
 예를들어 App.vue에서 지역 컴포넌트로 등록을 할 경우
 ```javascript
-<-- App.vue -->
+// App.vue
 <script>
 import TheHeader from "./components/TheHeader.vue";
 import BadgeList from "./components/BadgeList.vue";
@@ -94,7 +94,7 @@ TheHeader, BadgeList, UserInfo라는 이름으로 컴포넌트를 import하고 c
 
 등록한 컴포넌트를 호출할때는 프로퍼티 이름을 태그형식으로 사용해 호출한다.
 ```javascript
-<-- App.vue -->
+// App.vue
 <template>
   <div>
     <the-header></the-header>
@@ -110,7 +110,7 @@ TheHeader, BadgeList, UserInfo라는 이름으로 컴포넌트를 import하고 c
 
 이때 좀 더 간결하게 컴포넌트를 등록하고 호출할 수 있다.
 ```javascript
-<-- App.vue -->
+// App.vue
 <script>
 import TheHeader from "./components/TheHeader.vue";
 import BadgeList from "./components/BadgeList.vue";

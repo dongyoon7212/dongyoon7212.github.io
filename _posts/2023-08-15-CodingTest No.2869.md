@@ -54,7 +54,7 @@ sidebar:
 
 달팽이가 나무 막대를 올라가는데 걸리는 시간은 (V-B)/(A-B)
 
-```
+```python
 import math
 
 A,B,V = map(int,input().split())
@@ -68,12 +68,12 @@ day=(V-B)/(A-B)
 그렇다면 소수점을 반올림을 해서 출력 해줘야한다.
 math모듈 중 ceil를 이용한다.
 
-```
+```python
 print(math.ceil(day))
 ```
 - - -
 ##### 정답
-```
+```python
 import math
 
 A,B,V = map(int,input().split())
@@ -90,7 +90,7 @@ print(math.ceil(day))
 먼저 math 모듈은 수학과 관련된 다양한 함수들과 상수들이 정의되어 있다.
 
 math을 사용하려면
-```
+```python
 import math
 ```
 하여 사용할 수 있다.
@@ -101,7 +101,7 @@ import math
    ceil함수는 실수를 입력하면 올림하여 정수로 반환해주는 함수이다.
    만약 정수를 입력하게 된다면 아무런 변화없이 정수로 반환되게 될것이다.
    아래는 간단한 예제이다.
-```
+```python
 >>>math.ceil(3.14)
 4
 >>>math.ceil(5.187)
@@ -118,7 +118,7 @@ import math
    floor함수는 ceil함수의 반대이다. 실수를 내림하여 정수로 반환하는 함수이다.
    floor의 성격은 ceil와 똑같다.
    아래는 간단한 예제이다.
-```
+```python
 >>>math.floor(3.14)
 3
 >>>math.floor(5.187)

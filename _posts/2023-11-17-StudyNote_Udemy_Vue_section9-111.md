@@ -29,7 +29,7 @@ sidebar:
 예를들어
 
 ```javascript
-<-- main.js -->
+// main.js
 
 import { createApp } from 'vue';
 

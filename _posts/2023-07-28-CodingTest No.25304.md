@@ -76,7 +76,7 @@ No
 #### 풀이
 먼저 영수증에 적힌 총 금액은 total, 구입한 물건의 총 개수는 things, 실제 물건의 총 가격은 sum으로 변수를 지정하고 입력값을 받는다.
 
-```
+```python
 total = int(input())
 things = int(input())
 sum = 0
@@ -88,7 +88,7 @@ sum = 0
 
 여기서 입력한 물건의 가격과 해당 물건의 개수를 입력받은 후 실제 물건의 총 가격인 sum에 더해준다.
 
-```
+```python
 for i in range(things):
     price,count=map(int,input().split())
     sum += price*count
@@ -98,7 +98,7 @@ for i in range(things):
 
 이것은 if문을 이용해 조건을 설정한다. 그리고 조건이 참이라면 “Yes”를 출력하고 거짓이라면 “No”를 출력한다.
 
-```
+```python
 if total == sum:
     print("Yes")
 else:
@@ -106,7 +106,7 @@ else:
 ```
 #### **정답**
 총 정리를 하면
-```
+```python
 total = int(input())
 things = int(input())
 sum = 0
@@ -122,7 +122,7 @@ else:
 ```
 
 예제 입력1을 해본다.
-```
+```python
 /usr/local/bin/python3.11 /Users/dongyoon/Desktop/Python/practice2.py 
 260000
 4
@@ -137,7 +137,7 @@ Process finished with exit code 0
 값이 일치하여 정상적으로 “Yes”가 출력되는 것을 볼 수 있다.
 
 예제 입력2를 해본다.
-```
+```python
 /usr/local/bin/python3.11 /Users/dongyoon/Desktop/Python/practice2.py 
 250000
 4

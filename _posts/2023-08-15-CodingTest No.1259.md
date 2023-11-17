@@ -35,7 +35,7 @@ sidebar:
 이 문제를 풀면서 여러가지 방법으로 접근을 해보았다. 이 수를 반으로 쪼개서 어떻게 반반을 비교할 수 있을까만 생각하던게 문제였다. 사실 이 수들은 순서를 뒤집어도 똑같다는 점을 집중해야한다.
 
 그럼 먼저 while문을 이용하여 0이 입력될때까지 입력을 받는다.
-```
+```python
 while True:
     num = input()
 
@@ -47,7 +47,7 @@ while True:
 
 또 조건문을 이용하여 num과 num[::-1]을 이용하여 문자를 뒤집은것을 비교하여 같다면 yes를 출력할 수 있도록 한다.
 
-```
+```python
 if num == num[::-1]:
     result = "yes"
 
@@ -56,7 +56,7 @@ print(result)
 
 - - -
 ##### 정답
-```
+```python
 while True:
     num = input()
 

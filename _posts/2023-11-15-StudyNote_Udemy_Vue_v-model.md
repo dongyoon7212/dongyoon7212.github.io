@@ -20,12 +20,12 @@ sidebar:
 입력을 통한 데이터 속성을 전달하고 동시에 이벤트를 수행한다.
 
 기본적으로 사용법은 이러하다.
-```
+```html
 <input v-model="searchText" />
 ```
 
 이것을 v-bind와 v-on로 풀어서 코드를 쓰면
-```
+```html
 <input
   :value="searchText"
   @input="searchText = $event.target.value"
@@ -33,7 +33,7 @@ sidebar:
 ```
 
 프로젝트에 적용해보자
-```
+```html
 <template>
   <form @submit.prevent="submitData">
     <div>
@@ -58,7 +58,7 @@ sidebar:
 이름, 전화번호. 이메일을 입력받는 요소를 만들었다.
 
 여기서 입력받은 데이터들을 저장해두기 위해 data함수를 이용한다.
-```
+```javascript
 data() {
     return {
       enteredName: "",

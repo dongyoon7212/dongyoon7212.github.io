@@ -15,10 +15,10 @@ sidebar:
 ## 전역 스타일과 지역 스타일 적용법
 
 #### 전역 스타일
-- <style></style>로 사용하며 앱 전체에 스타일을 적용시킴
+- `<style></style>`로 사용하며 앱 전체에 스타일을 적용시킴
 
 #### 지역 스타일
-- <style scoped></style>scoped 옵션 추가, 해당 컴포넌트에서만 스타일을 적용시킴
+- `<style scoped></style>` scoped 옵션 추가, 해당 컴포넌트에서만 스타일을 적용시킴
 
 - - -
 #### 예제
@@ -36,7 +36,7 @@ body {
 </style>
 ```
 
-<style></style> 태그로만 사용하면 앱 전체에 해당 스타일 모두 적용
+`<style></style>` 태그로만 사용하면 앱 전체에 해당 스타일 모두 적용
 
 지역 스타일로 사용할 때
 ```javascript
@@ -56,4 +56,4 @@ section header {
 }
 ```
 
-<style scoped></style>로 scoped 옵션을 추가하면 해당 컴포넌트에서만 스타일 적용
+`<style scoped></style>` 로 scoped 옵션을 추가하면 해당 컴포넌트에서만 스타일 적용

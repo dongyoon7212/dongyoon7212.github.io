@@ -1,5 +1,6 @@
 ---
 layout: single
+published: true
 title: (Vue.js) slot, slot에 이름넣기
 categories: 공부노트
 tag: Vue.js

@@ -1,5 +1,6 @@
 ---
 layout: single
+published: true
 title: (프로그래머스)피자 나눠 먹기2
 categories: 프로그래머스
 tag: [알고리즘, JavaScript]
